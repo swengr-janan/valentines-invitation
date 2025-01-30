@@ -268,15 +268,16 @@ body {
     height: 100vh;
     border-radius: 0;
     padding: 10px;
+    padding-bottom: 100px;
   }
 
   .paper p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .yes-btn,
   .no-btn {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 15px 35px;
   }
 }
