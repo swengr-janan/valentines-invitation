@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine's Invitation 💌</title>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-collage">
+      <div style="background-image: url('./assets/1.jpg')"></div>
+      <div style="background-image: url('./assets/2.jpg')"></div>
+      <div style="background-image: url('./assets/3.png')"></div>
+      <div style="background-image: url('./assets/4.jpg')"></div>
+      <div style="background-image: url('./assets/6.jpg')"></div>
+      <div style="background-image: url('./assets/5.png')"></div>
+      <div style="background-image: url('./assets/7.png')"></div>
+      <div style="background-image: url('./assets/8.png')"></div>
+      <div style="background-image: url('./assets/9.png')"></div>
+    </div>
+
+    <div class="envelope-container">
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+          <button class="open-btn" onclick="openEnvelope()">Open Me 💖</button>
+        </div>
+        <div class="message">
+          <div class="paper">
+            <p>
+              💕 My Dearest Bubba, 💕<br /><br />
+              We didn't celebrate Valentine's together last year, but would you
+              be my Valentine this year and for the rest of our lives?<br /><br />
+              —Janan 🌹
+            </p>
+            <div class="buttons">
+              <button class="yes-btn" onclick="showResponse('yes')">Yes</button>
+              <button
+                class="no-btn"
+                onclick="showResponse('no')"
+                style="font-size: 1rem"
+              >
+                Yes pa din, ibang color lang 🤪
+              </button>
+            </div>
+          </div>
+          <div class="response">
+            <img class="response-image" src="" alt="Response Image" />
+            <button class="close-btn" onclick="closeEnvelope()">❌</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="effects" id="effectsContainer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
